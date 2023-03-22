@@ -41,11 +41,11 @@
         android:id="@+id/linerCards"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:baselineAligned="false"
         android:orientation="horizontal"
         android:padding="@dimen/space_8"
         android:visibility="invisible"
-        app:layout_constraintTop_toBottomOf="@id/athan_times"
-        android:baselineAligned="false">
+        app:layout_constraintTop_toBottomOf="@id/athan_times">
 
         <LinearLayout
             android:id="@+id/cardMorning"
