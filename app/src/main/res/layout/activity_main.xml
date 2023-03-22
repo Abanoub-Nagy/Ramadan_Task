@@ -50,7 +50,7 @@
         <LinearLayout
             android:id="@+id/cardMorning"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="120dp"
             android:layout_marginEnd="@dimen/space_8"
             android:layout_marginBottom="@dimen/space_8"
             android:layout_weight="1"
@@ -80,7 +80,7 @@
         <LinearLayout
             android:id="@+id/cardDouher"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="120dp"
             android:layout_marginEnd="@dimen/space_8"
             android:layout_marginBottom="@dimen/space_8"
             android:layout_weight="1"
@@ -110,7 +110,7 @@
         <LinearLayout
             android:id="@+id/cardMaghrib"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="120dp"
             android:layout_marginBottom="@dimen/space_8"
             android:layout_weight="1"
             android:background="@drawable/card"
