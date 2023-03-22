@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Ramadan_Task</string>
+    <string name="welcomeString">RAMADAN KAREEM</string>
+    <string name="__4h__26m__22s">4h: 26m: 22s</string>
+    <string name="the_remaining_time_for_iftar">The remaining time for Iftar</string>
+    <string name="athan_times">Athan time</string>
+    <string name="constipation_time">Constipation time</string>
+    <string name="total_time_for_iftar">13h: 59m</string>
+    <string name="maghreb_prayer">Maghreb prayer</string>
+    <string name="__7__20__pm">7:20 PM</string>
+    <string name="__12__20__pm">11:56 AM</string>
+    <string name="dhuhr_prayer">Dhuhr prayer</string>
+    <string name="__4.16__am">04.16 AM</string>
+    <string name="Al_fajr_prayer">Al-fajr prayer</string>
 </resources>
