@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#35A600"
+    android:background="@color/white"
     android:padding="16dp"
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
@@ -24,23 +24,12 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/muslimcouple" />
 
-    <TextView
-        android:id="@+id/athan_times"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/space_16"
-        android:fontFamily="monospace"
-        android:text="@string/athan_times"
-        android:textColor="@color/green"
-        android:textSize="@dimen/text_16"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/lottieBreakFast" />
 
     <LinearLayout
         android:id="@+id/linerCards"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_16"
         android:baselineAligned="false"
         android:orientation="horizontal"
         android:padding="@dimen/space_8"
@@ -64,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:text="@string/Al_fajr_prayer"
-                android:textColor="@color/white"
+                android:textColor="@color/time_hint"
                 android:textSize="@dimen/text_14" />
 
             <TextView
@@ -73,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/space_8"
                 android:text="@string/__4.16__am"
-                android:textColor="@color/black"
+                android:textColor="@color/timer_hint"
                 android:textSize="@dimen/text_12" />
         </LinearLayout>
 
@@ -94,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:text="@string/dhuhr_prayer"
-                android:textColor="@color/white"
+                android:textColor="@color/time_hint"
                 android:textSize="@dimen/text_14" />
 
             <TextView
@@ -103,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/space_8"
                 android:text="@string/__12__20__pm"
-                android:textColor="@color/black"
+                android:textColor="@color/timer_hint"
                 android:textSize="@dimen/text_12" />
         </LinearLayout>
 
@@ -123,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:text="@string/maghreb_prayer"
-                android:textColor="@color/white"
+                android:textColor="@color/time_hint"
                 android:textSize="@dimen/text_14" />
 
             <TextView
@@ -132,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/space_8"
                 android:text="@string/__7__20__pm"
-                android:textColor="@color/black"
+                android:textColor="@color/timer_hint"
                 android:textSize="@dimen/text_12" />
         </LinearLayout>
     </LinearLayout>
@@ -157,7 +146,7 @@
             android:layout_weight="1"
             android:gravity="start"
             android:text="@string/constipation_time"
-            android:textColor="@color/white"
+            android:textColor="@color/time_hint"
             android:textSize="@dimen/text_14" />
 
         <TextView
@@ -166,7 +155,7 @@
             android:layout_height="wrap_content"
             android:gravity="end"
             android:text="@string/__4h__26m__22s"
-            android:textColor="@color/black"
+            android:textColor="@color/timer_hint"
             android:textSize="@dimen/text_14" />
     </LinearLayout>
 
@@ -189,7 +178,7 @@
             android:layout_weight="1"
             android:gravity="start"
             android:text="@string/the_remaining_time_for_iftar"
-            android:textColor="@color/white"
+            android:textColor="@color/time_hint"
             android:textSize="@dimen/text_14" />
 
         <TextView
@@ -198,7 +187,7 @@
             android:layout_height="wrap_content"
             android:gravity="end"
             android:text="@string/total_time_for_iftar"
-            android:textColor="@color/black"
+            android:textColor="@color/timer_hint"
             android:textSize="@dimen/text_14" />
     </LinearLayout>
 
@@ -226,5 +215,18 @@
         app:layout_constraintBottom_toBottomOf="@id/large_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/athan_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:fontFamily="monospace"
+        android:text="@string/athan_times"
+        android:textColor="@color/title_hint"
+        android:textSize="@dimen/text_16"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lottieBreakFast" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>

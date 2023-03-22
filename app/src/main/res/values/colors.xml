@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#9BFF6C</color>
+    <color name="time_hint">#99000000</color>
+    <color name="timer_hint">#61000000</color>
+    <color name="title_hint">#DB000000</color>
 </resources>

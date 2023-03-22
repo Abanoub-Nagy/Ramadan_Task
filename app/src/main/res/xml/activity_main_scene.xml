@@ -33,8 +33,9 @@
             android:id="@+id/linerCards"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/adhanTimes"
-            motion:visibilityMode="ignore" />
+            app:layout_constraintTop_toBottomOf="@+id/athan_times"
+            motion:visibilityMode="ignore"
+            app:layout_editor_absoluteX="64dp" />
 
         <Constraint
             android:id="@+id/cardconstipationTime"
@@ -79,6 +80,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/lottieBreakFast"
             motion:visibilityMode="ignore" />
+        <Constraint
+            android:id="@+id/athan_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/lottieBreakFast"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/space_16" />
     </ConstraintSet>
 
     <Transition
